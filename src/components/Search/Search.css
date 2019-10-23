@@ -1,0 +1,23 @@
+.Search {
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+
+.Search__input {
+  height: 35px;
+  width: 300px;
+  border-radius: 15px;
+  border: 2px solid #87c0cd;
+  background-color: #f3f9fb;
+  outline: none;
+  padding-left: 1em;
+  padding-right: 2.2em;
+  font-size: 1.2em;
+}
+
+.Search__img {
+  position: absolute;
+  right: 15px;
+  width: 23px;
+}

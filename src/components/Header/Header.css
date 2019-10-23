@@ -1,0 +1,14 @@
+.Header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 80px;
+  padding: 1.5em;
+  box-sizing: border-box;
+  background-color: #f3f9fb;
+  box-shadow: 1px -4px 7px 12px #0000001f
+}
+
+.Header__logo {
+  width: 120px;
+}

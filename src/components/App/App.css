@@ -1,0 +1,120 @@
+@font-face {
+  font-family: 'lato';
+  src: url('../../assets/fonts/lato/LatoLatin-Hairline.eot');
+  src: url('../../assets/fonts/lato/LatoLatin-Hairline.eot?#iefix')
+      format('embedded-opentype'),
+    url('../../assets/fonts/lato/LatoLatin-Hairline.woff2') format('woff2'),
+    url('../../assets/fonts/lato/LatoLatin-Hairline.woff') format('woff'),
+    url('../../assets/fonts/lato/LatoLatin-Hairline.ttf') format('truetype');
+  font-weight: 100;
+  font-style: normal;
+  font-display: auto;
+}
+
+@font-face {
+  font-family: 'lato';
+  src: url('../../assets/fonts/lato/LatoLatin-Thin.eot');
+  src: url('../../assets/fonts/lato/LatoLatin-Thin.eot?#iefix')
+      format('embedded-opentype'),
+    url('../../assets/fonts/lato/LatoLatin-Thin.woff2') format('woff2'),
+    url('../../assets/fonts/lato/LatoLatin-Thin.woff') format('woff'),
+    url('../../assets/fonts/lato/LatoLatin-Thin.ttf') format('truetype');
+  font-weight: 200;
+  font-style: normal;
+  font-display: auto;
+}
+
+@font-face {
+  font-family: 'lato';
+  src: url('../../assets/fonts/lato/LatoLatin-Light.eot');
+  src: url('../../assets/fonts/lato/LatoLatin-Light.eot?#iefix')
+      format('embedded-opentype'),
+    url('../../assets/fonts/lato/LatoLatin-Light.woff2') format('woff2'),
+    url('../../assets/fonts/lato/LatoLatin-Light.woff') format('woff'),
+    url('../../assets/fonts/lato/LatoLatin-Light.ttf') format('truetype');
+  font-weight: 300;
+  font-style: normal;
+  font-display: auto;
+}
+
+@font-face {
+  font-family: 'lato';
+  src: url('../../assets/fonts/lato/LatoLatin-Regular.eot');
+  src: url('../../assets/fonts/lato/LatoLatin-Regular.eot?#iefix')
+      format('embedded-opentype'),
+    url('../../assets/fonts/lato/LatoLatin-Regular.woff2') format('woff2'),
+    url('../../assets/fonts/lato/LatoLatin-Regular.woff') format('woff'),
+    url('../../assets/fonts/lato/LatoLatin-Regular.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+  font-display: auto;
+}
+
+@font-face {
+  font-family: 'lato';
+  src: url('../../assets/fonts/lato/LatoLatin-Medium.eot');
+  src: url('../../assets/fonts/lato/LatoLatin-Medium.eot?#iefix')
+      format('embedded-opentype'),
+    url('../../assets/fonts/lato/LatoLatin-Medium.woff2') format('woff2'),
+    url('../../assets/fonts/lato/LatoLatin-Medium.woff') format('woff'),
+    url('../../assets/fonts/lato/LatoLatin-Medium.ttf') format('truetype');
+  font-weight: 500;
+  font-style: normal;
+  font-display: auto;
+}
+
+@font-face {
+  font-family: 'lato';
+  src: url('../../assets/fonts/lato/LatoLatin-Semibold.eot');
+  src: url('../../assets/fonts/lato/LatoLatin-Semibold.eot?#iefix')
+      format('embedded-opentype'),
+    url('../../assets/fonts/lato/LatoLatin-Semibold.woff2') format('woff2'),
+    url('../../assets/fonts/lato/LatoLatin-Semibold.woff') format('woff'),
+    url('../../assets/fonts/lato/LatoLatin-Semibold.ttf') format('truetype');
+  font-weight: 600;
+  font-style: normal;
+  font-display: auto;
+}
+
+@font-face {
+  font-family: 'lato';
+  src: url('../../assets/fonts/lato/LatoLatin-Bold.eot');
+  src: url('../../assets/fonts/lato/LatoLatin-Bold.eot?#iefix')
+      format('embedded-opentype'),
+    url('../../assets/fonts/lato/LatoLatin-Bold.woff2') format('woff2'),
+    url('../../assets/fonts/lato/LatoLatin-Bold.woff') format('woff'),
+    url('../../assets/fonts/lato/LatoLatin-Bold.ttf') format('truetype');
+  font-weight: 700;
+  font-style: normal;
+  font-display: auto;
+}
+
+@font-face {
+  font-family: 'lato';
+  src: url('../../assets/fonts/lato/LatoLatin-Heavy.eot');
+  src: url('../../assets/fonts/lato/LatoLatin-Bold.eot?#iefix')
+      format('embedded-opentype'),
+    url('../../assets/fonts/lato/LatoLatin-Heavy.woff2') format('woff2'),
+    url('../../assets/fonts/lato/LatoLatin-Heavy.woff') format('woff'),
+    url('../../assets/fonts/lato/LatoLatin-Heavy.ttf') format('truetype');
+  font-weight: 800;
+  font-style: normal;
+  font-display: auto;
+}
+
+@font-face {
+  font-family: 'lato';
+  src: url('../../assets/fonts/lato/LatoLatin-Black.eot');
+  src: url('../../assets/fonts/lato/LatoLatin-Black.eot?#iefix')
+      format('embedded-opentype'),
+    url('../../assets/fonts/lato/LatoLatin-Black.woff2') format('woff2'),
+    url('../../assets/fonts/lato/LatoLatin-Black.woff') format('woff'),
+    url('../../assets/fonts/lato/LatoLatin-Black.ttf') format('t ruetype');
+  font-weight: 900;
+  font-style: normal;
+  font-display: auto;
+}
+
+body, input{
+  font-family: 'lato';
+}

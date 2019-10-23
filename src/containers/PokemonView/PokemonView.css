@@ -1,0 +1,4 @@
+.PokemonView {
+  display: flex;
+  flex-direction: row;
+}
