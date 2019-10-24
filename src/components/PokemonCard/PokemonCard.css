@@ -1,0 +1,29 @@
+.PokemonCard {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: 4px solid #226597;
+  padding: 0.5em;
+  box-sizing: border-box;
+  border-radius: 5px;
+  width: 150px;
+  height: 200px;
+  margin-left: 5px;
+  margin-bottom: 30px;
+}
+
+.PokemonCard__contentLabel {
+  width: 100%;
+  margin-top: 0.8em;
+  padding: 1em;
+  box-sizing: border-box;
+  text-align: center;
+  background-color: #226597;
+  color: #fff;
+  font-weight: 700;
+}
+
+.PokemonCard__img {
+  width: 120px;
+}

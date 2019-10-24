@@ -1,0 +1,11 @@
+.PokemonList {
+  width: 50%;
+  padding: 2em;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  align-content: space-between;
+  box-sizing: border-box;
+}
