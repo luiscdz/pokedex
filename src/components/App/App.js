@@ -1,12 +1,12 @@
 import React from 'react';
-import Pokedex from '../../pages/Pokedex/Pokedex';
 import Layout from '../Layout/Layout';
+import PokemonView from '../../containers/PokemonView/PokemonView';
 import './App.css';
 
 const App = () => {
   return (
     <Layout className="App">
-      <Pokedex />
+      <PokemonView />
     </Layout>
   );
 }
