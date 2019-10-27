@@ -4,7 +4,7 @@ import './PokemonDetail.css';
 
 const PokemonDetail = () => {
   return (
-    <div class="PokemonDetail">
+    <div className="PokemonDetail">
       <img src={pokemonImg} alt="Pikachu Pokémon" />
     </div>
   )
