@@ -6,7 +6,6 @@ const PokemonDetail = () => {
   return (
     <div>
       <img src={pokemonImg} alt="Pikachu Pokémon" />
-
     </div>
   )
 }
