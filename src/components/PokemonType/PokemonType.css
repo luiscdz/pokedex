@@ -1,0 +1,84 @@
+.PokemonType {
+  color: #fff;
+  width: 50px;
+  display: inline-block;
+  font-size: 0.8em;
+  font-weight: 800;
+  text-align: center;
+  text-transform: capitalize;
+  border-radius: 20px;
+  padding: 2px;
+}
+
+.PokemonType--fire {
+  background-color: #ff9f54;
+}
+
+.PokemonType--steel {
+  background-color: #55a6a9;
+}
+
+.PokemonType--water {
+  background-color: #6abbe4;
+}
+
+.PokemonType--bug {
+  background-color: #90c02a;
+}
+
+.PokemonType--dragon {
+  background-color: #007ec0;
+}
+
+.PokemonType--electric {
+  background-color: #f3d33c;
+}
+
+.PokemonType--gost {
+  background-color: #7071cf;
+}
+
+.PokemonType--faire {
+  background-color: #ef90e7;
+}
+
+.PokemonType--ice {
+  background-color: #8edbd5;
+}
+
+.PokemonType--fight {
+  background-color: #d23e67;
+}
+
+.PokemonType--normal {
+  background-color: #a2a4a0;
+}
+
+.PokemonType--grass {
+  background-color: #59c47c;
+}
+
+.PokemonType--pquic {
+  background-color: #f76e72;
+}
+
+.PokemonType--rock {
+  background-color: #c8bb8c;
+}
+
+.PokemonType--dark {
+  background-color: #585265;
+}
+
+.PokemonType--ground {
+  background-color: #dc7843;
+}
+
+.PokemonType--poison {
+  background-color: #a966c9;
+}
+
+.PokemonType--flying {
+  background-color: #94aedf;
+}
+
