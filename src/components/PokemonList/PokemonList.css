@@ -9,3 +9,11 @@
   align-content: space-between;
   box-sizing: border-box;
 }
+
+.PokemonList--loading {
+  width: 50%;
+  height: 90vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
