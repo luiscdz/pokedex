@@ -17,3 +17,9 @@
   justify-content: center;
   align-items: center;
 }
+
+.PokemonList__loader {
+  position: absolute;
+  left: 30%;
+  transform: translateX(-80%);
+}

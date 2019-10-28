@@ -16,8 +16,20 @@
   font-size: 1.2em;
 }
 
-.Search__img {
+.Search__button {
   position: absolute;
   right: 15px;
+  background: none;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+
+.Search__img {
   width: 23px;
+}
+
+.Search__close {
+  font-size: 2.2em;
+  font-weight: 700;
 }

@@ -3,7 +3,7 @@ import PokemonThumbnail from '../PokemonThumbnail/PokemonThumbnail';
 import './PokemonCard.css';
 import PokemonType from '../PokemonType/PokemonType';
 
-const PokemonCard = ({ 
+const PokemonCard = ({
   pathImage,
   name,
   isSelected,
@@ -19,7 +19,9 @@ const PokemonCard = ({
       <PokemonThumbnail alt="Pokémon" pathImage={pathImage} className="PokemonCard__img" />
       <div className="PokemonCard__contentTypes">
         {
-          types && types.map(type => (<PokemonType type={type.type.name} />))
+          types && types.map(type => 
+            (<PokemonType key={`${number}_${type.type.name}`} type={type.type.name} />)
+          )
         }
       </div>
       <div className="PokemonCard__contentLabel">

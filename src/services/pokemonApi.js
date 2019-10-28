@@ -1,15 +1,10 @@
 import URL_API from '../constants/api';
 
-const  getPokemon = async (pagination = {}) => {
-  const data = {
-    offset: 0,
-    limit: 30,
-    ...pagination
-  };
-  
+const  getPokemon = async (nextPage) => {
   let response = [];
+  const url = nextPage || `${URL_API}?offset=0&limit=30`;
 
-  let requestPokemon =  await fetch(`${URL_API}?offset=${data.offset}&limit=${data.limit}`, {
+  let requestPokemon =  await fetch( url, {
     method: 'GET',
     headers:{
       'Content-Type': 'application/json'
@@ -24,15 +19,28 @@ const  getPokemon = async (pagination = {}) => {
     response = [ ...response, { ...responsePokemon[i], ...requestDetail }]
   }
 
-  return response;
+  return {
+    ...jsonAllPokemon,
+    results: response
+  };
 }
-
-export { 
-  getPokemon
-};
 
 const getPokemonDetail = async (url) => {
   let request = await fetch(url);
   let response = await request.json();
   return response;
 }
+
+
+const getPokemonByName = async (name) => {
+  const url = `${URL_API}/${name}`;
+  let request = await fetch(url);
+  let response = await request.json();
+  return response;
+}
+
+export { 
+  getPokemon,
+  getPokemonByName
+};
+

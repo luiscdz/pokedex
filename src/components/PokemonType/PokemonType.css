@@ -7,7 +7,7 @@
   text-align: center;
   text-transform: capitalize;
   border-radius: 20px;
-  padding: 2px;
+  padding: 2px 3px;
 }
 
 .PokemonType--fire {
@@ -34,11 +34,11 @@
   background-color: #f3d33c;
 }
 
-.PokemonType--gost {
+.PokemonType--ghost {
   background-color: #7071cf;
 }
 
-.PokemonType--faire {
+.PokemonType--fairy {
   background-color: #ef90e7;
 }
 
@@ -46,7 +46,7 @@
   background-color: #8edbd5;
 }
 
-.PokemonType--fight {
+.PokemonType--fighting {
   background-color: #d23e67;
 }
 
@@ -58,7 +58,7 @@
   background-color: #59c47c;
 }
 
-.PokemonType--pquic {
+.PokemonType--psychic {
   background-color: #f76e72;
 }
 
